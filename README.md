@@ -37,8 +37,8 @@ $('img.identicon-2').identicon5({size : 128, dataattr : 'md5'});
 
 Options
 =======
-1. `size` : size of the image in pixels.
-2. `rotate` : true if the image should be rotated. (default: `true`)
+1. `size` : size of the image in pixels. (identicons are always square)
+2. `rotate` : whether or not to rotate each tile in place for greater variation of the images (default: `true`)
 3. `dataattr` : data-* attribute that should be used for finding the checksum (default: `md5`, i.e `data-md5` value will be looked up)
 
 License
